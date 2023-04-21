@@ -1,7 +1,7 @@
 class Account:
     def __init__(self, name: str) -> None:
         """
-        Function to st up object
+        Function to set up object
         :param name: Account name
         """
 

@@ -4,8 +4,9 @@ class Account:
         Function to set up object
         :param name: Account name
         """
+        self.__account_name = Account(name)
+        self.__account_balance = 0
 
-        pass
 
     def deposit(self, amount):
         pass

@@ -25,6 +25,11 @@ class Account:
         :param amount: specified amount
         :return: True or False whether deposit (un)/successful
         """
+        if 0 < amount <= self.__account_balance:
+            self.__account_balance -= amount
+            return True
+        else:
+            return False
 
     def get_balance(self):
         pass

@@ -19,7 +19,7 @@ class Account:
         else:
             return False
 
-    def withdraw(self, amount) -> bool:
+    def withdraw(self, amount: float) -> bool:
         """
         Function decreases account balance
         :param amount: specified amount

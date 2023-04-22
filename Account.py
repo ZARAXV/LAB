@@ -31,10 +31,19 @@ class Account:
         else:
             return False
 
-    def get_balance(self):
-        pass
+    def get_balance(self) -> float:
+        """
+        Function will return the balance
+        :return: balance of the account
+        """
+        return self.__account_balance
 
-    def get_name(self):
-        pass
+    def get_name(self) -> str:
+        """
+        Function gets/returns account name
+        :return: account name
+        """
+        return self.__account_name
+
 
     
